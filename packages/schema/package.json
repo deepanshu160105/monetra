@@ -1,0 +1,19 @@
+{
+  "name": "@monetra/schema",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@monetra/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

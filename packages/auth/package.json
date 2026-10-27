@@ -1,0 +1,25 @@
+{
+  "name": "@monetra/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@better-auth/expo": "catalog:",
+    "@monetra/db": "workspace:*",
+    "@monetra/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@monetra/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

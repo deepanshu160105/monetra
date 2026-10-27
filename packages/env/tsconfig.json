@@ -1,0 +1,3 @@
+{
+  "extends": "@monetra/config/tsconfig.base.json"
+}
